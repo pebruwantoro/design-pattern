@@ -13,6 +13,7 @@ type IMamatosaiBakery interface {
 	MakeDonut() donut.IDonut
 	MakeCake() cake.ICake
 	MakeCroissant() croissant.ICroissant
+	// MakeCookies() cookies.ICookies
 }
 
 func GetBakeryMenu(menu string) (IMamatosaiBakery, error) {
@@ -21,6 +22,9 @@ func GetBakeryMenu(menu string) (IMamatosaiBakery, error) {
 	}
 	if menu == "strawberry" {
 		return &variant.Strawberry{}, nil
+	}
+	if menu == "blueberry" {
+		return &variant.Blueberry{}, nil
 	}
 	// ADD THE VARIANT OF PRODUCT
 

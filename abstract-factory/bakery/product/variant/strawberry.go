@@ -35,3 +35,12 @@ func (s *Strawberry) MakeCroissant() croissant.ICroissant {
 		},
 	}
 }
+
+// func (s *Strawberry) MakeCookies() cookies.ICookies {
+// 	return &product.StrawberryCookies{
+// 		Cookies: cookies.Cookies{
+// 			Name:  "Strawberry Cookies",
+// 			Price: 19200.50,
+// 		},
+// 	}
+// }

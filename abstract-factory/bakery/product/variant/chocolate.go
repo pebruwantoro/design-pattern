@@ -36,3 +36,12 @@ func (c *Chocolate) MakeCroissant() croissant.ICroissant {
 		},
 	}
 }
+
+// func (s *Chocolate) MakeCookies() cookies.ICookies {
+// 	return &product.ChocolateCookies{
+// 		Cookies: cookies.Cookies{
+// 			Name:  "Chocolate Cookies",
+// 			Price: 19200.50,
+// 		},
+// 	}
+// }
