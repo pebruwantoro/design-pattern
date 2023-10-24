@@ -1,10 +1,10 @@
 package variant
 
 import (
-	"abtract-factory/bakery/product"
-	"abtract-factory/bakery/product/cake"
-	"abtract-factory/bakery/product/croissant"
-	"abtract-factory/bakery/product/donut"
+	"abstract-factory/bakery/product"
+	"abstract-factory/bakery/product/cake"
+	"abstract-factory/bakery/product/croissant"
+	"abstract-factory/bakery/product/donut"
 )
 
 type Blueberry struct{}
